@@ -6,7 +6,7 @@ import Button from "../../Shared/Button/Button";
 
 const Banner = () => {
   return (
-    <div className="bg-green-200 relative">
+    <div className="bg-emerald-300 relative">
       <div className="carousel w-full">
         <div id="slide1" className="carousel-item relative w-full">
           <div className="grid grid-cols-1 justify-around items-center w-4/5 mx-auto md:grid-cols-2 lg:grid-cols-2">

@@ -21,7 +21,7 @@ const Products = () => {
   };
 
   const {fetchData,products,dataLoading}=useProducts()
-  let url=`http://localhost:5000/products/category/${activeCategory}`
+  let url=`https://shopping-corner-server.vercel.app/products/category/${activeCategory}`
 
   useEffect(() => {
     fetchData(url)

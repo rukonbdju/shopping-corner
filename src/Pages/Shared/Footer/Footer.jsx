@@ -3,8 +3,8 @@ import logo from "../../../assets/images/logo.svg"
 const Footer = () => {
 
   return (
-    <div className="bg-green-100">
-      <footer className="footer p-10 text-base-content">
+    <div className="bg-emerald-200">
+      <footer className="footer p-20 text-base-content">
         <div>
           <img src={logo} alt="" width={'80px'} />
           <p>

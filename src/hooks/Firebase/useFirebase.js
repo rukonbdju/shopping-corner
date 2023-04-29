@@ -137,10 +137,9 @@ const useFirebase = () => {
         });
     }, [auth])
 
-    const methods = { handleCreateUserWithEmailAndPassword, handleSignInWithPopUp, handleSignInWithEmailAndPassword, handleLogOut, handlePasswordResetEmail }
-    const authInfo = { user, loading, error, sentEmail, passwordResetEmail }
+    const authInfo = {user, loading, error, sentEmail, passwordResetEmail , handleCreateUserWithEmailAndPassword, handleSignInWithPopUp, handleSignInWithEmailAndPassword, handleLogOut, handlePasswordResetEmail }
     //return all the fuction and user and auth information
-    return { authInfo, methods }
+    return authInfo ;
 }
 
 export default useFirebase;
